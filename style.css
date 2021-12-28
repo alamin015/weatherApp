@@ -27,6 +27,7 @@
     font-weight: 400;
     outline: none;
     background : transparent;
+    margin-top: 8px;
 }
 .btn{
     padding: 10px 20px;
@@ -38,6 +39,7 @@
     font-size: 16px;
     font-weight: 400;
     transition : 0.4s;
+    margin-top: 8px;
 }
 
 .btn:hover{
@@ -54,4 +56,19 @@ h2{
 h4{
     color :rgb(247, 205, 166);
     font-size: 26px;
+}
+
+#error{
+    font-size: 18px;
+    color : rgb(236, 47, 13);
+    margin-bottom: 8px;
+    font-weight: 400;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.6s;
+
+}
+#error.active{
+    opacity: 1;
+    visibility: visible;
 }
